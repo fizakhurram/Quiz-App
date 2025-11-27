@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
+    <div class="container-fluid">
+        <nav class="navbar mynav">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://png.pngtree.com/png-vector/20220607/ourmid/pngtree-vector-quiz-icon-qcm-blue-logo-vector-png-image_13830408.png"
+                        alt="Bootstrap">
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="card p-4 shadow" id="signup" style="width: 380px;">
+
+            <h3 class="text-center mb-3">Create Account</h3>
+
+            <form id="myform">
+                <div class="mb-3">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullname" placeholder="Enter your name" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Create a password" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm password" required />
+                </div>
+
+                <button type="button" class="btn btn-primary w-100" onclick="startQuiz()">Sign Up</button>
+
+                <p class="text-center mt-3 mb-0">
+                    Already have an account? <a href="#">Login</a>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mynav{
+background-color: #122B4E;
+}
+.mynav img{
+height: 90px;
+}
+.mycontainer{
+    height: 100px;
+    width: 100%;
+}
+
+/* form{
+    margin-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #A8BBA3;
+    height: 600px;
+}
+form h1{
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+input{
+    width: 100px;
+} */
